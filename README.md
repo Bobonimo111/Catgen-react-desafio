@@ -10,11 +10,15 @@ visualizar a funcionando
 
 ## 🎯 Desafio do Projeto
 
+Nivel: Iniciante - Intermediario
+
 O objetivo principal é integrar a API [CATAAS (Cats as a Service)](https://cataas.com/), utilizando o endpoint de geração de texto dinâmico:
 
 `https://cataas.com/cat/says/:text`
 
 A aplicação deve capturar a entrada do usuário e injetá-la na URL para buscar e exibir a imagem correspondente.
+
+O desafiente pode utilizar quaisquer ferramentas além das citadas, como bootstrap, taiwind, scss entre outros. 
 
 ---
 

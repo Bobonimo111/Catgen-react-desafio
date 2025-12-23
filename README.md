@@ -3,6 +3,9 @@ Isso não é um projeto de estudo meu é uma proposta para você desenvolvedor u
 
 Este projeto é uma aplicação web desenvolvida em **React** para fins de estudo, focada no consumo de APIs REST e manipulação de estados. A aplicação permite que o usuário gere imagens personalizadas de gatos com frases customizadas.
 
+[Click aqui](https://catgen-react-desafio.vercel.app/) para 
+visualizar a funcionando
+
 ---
 
 ## 🎯 Desafio do Projeto
@@ -52,6 +55,6 @@ Para melhorar a experiência do usuário (UX), o projeto inclui:
 - [ ] **Imaginação** consumindo a API crie algo você mesmo, com base no seu conhecimento e imaginação
 ---
 
-## 🔗 Links Úteis
-* **Documentação
+## Wireframe 
+
 ![como funciona a tela](image.png)

@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { GerarImagem } from './GerarImagem';
+import { Analytics } from "@vercel/analytics/next"
 
 interface Formulario {
   texto: string;
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <>
+
       <div className="container text-white p-3">
         <div>
           {/* Formulário controlado pelo react-hook-form */}
@@ -53,6 +55,7 @@ function App() {
         </div>
         <div className="text-black text-center mt-4">Create by <a href="https://github.com/Bobonimo111">bobonimo111</a></div>
       </div>
+      <Analytics />
     </>
   );
 }

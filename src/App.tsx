@@ -2,7 +2,6 @@ import React from 'react';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { GerarImagem } from './GerarImagem';
-import { Analytics } from "@vercel/analytics/next"
 
 interface Formulario {
   texto: string;

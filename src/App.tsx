@@ -29,9 +29,8 @@ function App() {
       <div className="container text-white p-3">
         <div>
           {/* Formulário controlado pelo react-hook-form */}
-          <form onSubmit={handleSubmit(onSubmit)} className="mx-5 d-flex flex-row justify-content-center align-items-center gap-3">
+          <form onSubmit={handleSubmit(onSubmit)} className="p-3 border rounded bg-white mx-5 d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
             <div className="col-8 mb-3">
-              <label htmlFor="texto" className="form-label">Texto</label>
               <input
                 required
                 type="text"
@@ -43,15 +42,16 @@ function App() {
               />
               <div id="texto" className="form-text">Adicione um texto para ser mesclado a imagem de um gato</div>
             </div>
-            <div className="col-auto d-flex align-items-center ">
+            <div className="col-auto d-flex align-items-start" >
               <button type="submit" className="btn btn-primary">Gerar</button>
             </div>
           </form>
         </div>
-        <div id="imagem" style={{ minHeight: '500px' }} className="border h-auto d-flex justify-content-center align-items-center mt-4">
+        <div id="imagem" style={{ minHeight: '500px' }} className="border rounded bg-white h-auto d-flex justify-content-center align-items-center mt-4">
           {/* Aqui vai a imagem do gato gerada */}
           {imagem}
         </div>
+        <div className="text-black text-center mt-4">Create by <a href="https://github.com/Bobonimo111">bobonimo111</a></div>
       </div>
     </>
   );

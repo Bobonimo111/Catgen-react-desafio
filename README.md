@@ -10,7 +10,7 @@ visualizar a funcionando
 
 ## 🎯 Desafio do Projeto
 
-Nivel: Iniciante - Intermediario
+Nivel: Iniciante 
 
 O objetivo principal é integrar a API [CATAAS (Cats as a Service)](https://cataas.com/), utilizando o endpoint de geração de texto dinâmico:
 

@@ -55,7 +55,6 @@ function App() {
         </div>
         <div className="text-black text-center mt-4">Create by <a href="https://github.com/Bobonimo111">bobonimo111</a></div>
       </div>
-      <Analytics />
     </>
   );
 }
